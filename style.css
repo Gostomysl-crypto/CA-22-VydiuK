@@ -226,6 +226,11 @@ footer{
 		height: 148px;
 		background-color: #C4C4C4;
 	}
+	.video_1,.video2{
+		width: 126px;
+		height: 148px;
+		background-color: #C4C4C4;
+	}
 	.news_header{
 		margin-top: 0;
 		text-align: center;
