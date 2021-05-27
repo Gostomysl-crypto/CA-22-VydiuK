@@ -177,10 +177,44 @@ footer{
     header{
     	display: none;
     }
+    .contact_us{
+    	font-size: 16px;
+    }
+  	form{
+    	margin-right: 0;
+    	margin-left: 0;
+    	width: 100%;
+    	height: 100%;
+    }
+    .form_block>form>div{   
+    		width: 100%;
+	}
+	.contact_us{
+		width: 100%;
+	}
+	.form_block>form>div{
+		width: 100%;
+	}
+	.form_block>form>div>input#name,input#email,textarea#message{
+		margin: 0;
+		width: 100%;
+	}
+	.form_block>form>div>input#mobile,input#submit{
+		width: 100%;
+	}
+	.phones{
+		display: flex;
+	}
+	.stud_name{
+		font-size: 14px;
+	}
+	.cover{
+		font-size: 14px;
+	}
+
     .burger_icon{
     	display: block;
     }
-    
     footer{
     	display: flex;
     	height: 103px;
