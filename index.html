@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>GOST SITE</title>
+	<link rel="stylesheet" href="CSS/style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div id="mobile_menu" class="mobile_menu" >
+		<img src="IMG/close.png" alt="#" onclick="closeBurger()">
+		<p><a href="index.html">главная</a></p>
+		<p><a href="Pages/About.html">о студии</a></p>
+		<p><a href="Pages/services.html">наши <br>услуги</a></p>
+		<p><a href="Pages/Contacts.html">контакты</a></p>
+	</div>
+	<div class="burger_icon" onclick="openBurger()">
+		<div></div>
+		<div></div>
+		<div></div>
+	</div>
+	<header>
+		<div>
+			<a href="index.html">главная</a>
+		</div>
+		<div>
+			<a href="Pages/About.html">о студии</a>
+		</div>
+		<div>
+			<a href="Pages/services.html">наши услуги</a>
+		</div>
+		<div>
+			<a href="Pages/Contacts.html">контакты</a>
+		</div>
+	</header>
+ 
+	<div class="main_block">
+		<div class="main_text_block">
+			<p class="stud_name">
+				Gatto studio
+			</p>
+			<p class="stud_preview">
+				Танцуй как Gatto, будь Gatto
+			</p>
+			<p class="stud_text">
+				Мы - команда тренеров, научим вас<br> быть сильными, двигаться на пилоне,<br> любить своё тело, подготовим вас к<br> различным соревнованиям,<br> чемпионатам
+			</p>
+		</div>
+		<div class="img_block">
+			<img src="IMG/main_pic.png" alt="#">
+		</div>
+	</div>
+	<div class="news_block">
+		<div class="news_header">Новости</div>
+		<div class="post_cover">
+			<div class="post1">
+				<video width="477px" height="500px" controls="controls" src="video/news_1.mp4">
+					<source src="video/news_1.mp4" type="video/mp4" codecs="avc1.42E01E, mp4a.40.2">
+				</video>
+			</div>
+			<div class="post2">
+				<video width="477px" height="500px" controls="controls" src="video/news_2.mp4">
+					<source src="video/news_2.mp4" type="video/mp4" codecs="avc1.42E01E, mp4a.40.2">
+				</video>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+        <div class="contacts">
+            <div class="text">
+                <p>Связаться с нами</p>
+            </div>
+            <div class="footer_icons">
+                <a href="https://www.instagram.com/p/CL1rSs0gE_9/?utm_medium=copy_link" target="_blank"><img src="IMG/instagram.png" alt="#"></a>
+                <a href="#"><img src="IMG/telegram.png" alt="#"></a>
+                <a href="#"><img src="IMG/viber.png" alt="#"></a>
+            </div>
+        </div>
+
+        <div class="footer_text">
+            <p>Copyright 2021</p>
+            <p>All Rights Reserved</p>
+            <p><a href="https://www.instagram.com/p/B8o6WZdgm81/?igshid=1jj2ibnexpuqk" target="_blank">Powered by Ghost</a></p>
+        </div>
+	</footer>
+
+	<script>
+		function openBurger() {
+	  		document.getElementById("mobile_menu").style.display = 
+	  		"block";
+		}
+
+		function closeBurger() {
+	  		document.getElementById("mobile_menu").style.display = 
+	  		"none";
+		}
+	</script>
+</body>
+</html>

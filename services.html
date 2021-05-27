@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>GOST SITE</title>
+	<link rel="stylesheet" href="../CSS/services.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div id="mobile_menu" class="mobile_menu" >
+		<img src="../IMG/close.png" alt="#" onclick="closeBurger()">
+		<p><a href="../index.html">главная</a></p>
+		<p><a href="About.html">о студии</a></p>
+		<p><a href="services.html">наши <br>услуги</a></p>
+		<p><a href="Contacts.html">контакты</a></p>
+	</div>
+	<div class="burger_icon" onclick="openBurger()">
+		<div></div>
+		<div></div>
+		<div></div>
+	</div>
+	<header>
+		<div>
+			<a href="../index.html">главная</a>
+		</div>
+		<div>
+			<a href="About.html">о студии</a>
+		</div>
+		<div>
+			<a href="services.html">наши услуги</a>
+		</div>
+		<div>
+			<a href="Contacts.html">контакты</a>
+		</div>
+	</header>
+ 
+	<div class="services">
+		<div class="line">
+			<div class="block">
+				<p id="ff">Choreography</p>
+				<img src="../IMG/main_pic.png" alt="#">
+			</div>
+			<div class="block">
+				<p>Poledance</p>
+				<img src="../IMG/poledance.png" alt="#">
+			</div>
+		</div>
+		<div class="line">
+			<div class="block">
+				<p>Stretching</p>
+				<img src="../IMG/streching.png" alt="#">
+			</div>
+			<div class="block">
+				<p>Yoga</p>
+				<img src="../IMG/yoga.png" alt="#">
+			</div>
+		</div>
+	</div>
+
+	<div class="goods">
+		<div class="gline">
+			<div class="gblock">
+				<p>Мини-абонемент</p>
+				<p>6 занятий</p>
+				<p>
+					посещение <br> 
+					занятий с <br>
+				    12:00 до 18:00
+				</p>
+				<p>полденс и <br> растяжка</p>
+				<p>600 uah</p>
+			</div>
+			<div class="gblock">
+				<p>Стандарт</p>
+				<p>8 занятий</p>
+				<p>
+					посещение <br> 
+					занятий с <br>
+				    12:00 до 20:00
+				</p>
+				<p>полденс, <br> растяжка и <br> йога</p>
+				<p>800 uah</p>
+			</div>
+		</div>
+		<div class="gline">
+			<div class="gblock">
+				<p>Полный</p>
+				<p>10 занятий</p>
+				<p>
+					посещение <br> 
+					занятий с <br>
+				    10:00 до 20:00
+				</p>
+				<p>все виды <br> занятий</p>
+				<p>1000 uah</p>
+			</div>
+			<div class="gblock">
+				<p>Всё включено</p>
+				<p>12 занятий</p>
+				<p>
+					посещение <br> 
+					занятий с <br>
+				    10:00 до 20:00
+				</p>
+				<p>любые виды <br> занятий</p>
+				<p>1200 uah</p>
+			</div>
+		</div>
+	</div>
+	
+	<footer>
+        <div class="contacts">
+            <div class="text">
+                <p>Связаться с нами</p>
+            </div>
+            <div class="footer_icons">
+                <a href="https://www.instagram.com/p/CL1rSs0gE_9/?utm_medium=copy_link" target="_blank"><img src="../IMG/instagram.png" alt="#"></a>
+                <a href="#"><img src="../IMG/telegram.png" alt="#"></a>
+                <a href="#"><img src="../IMG/viber.png" alt="#"></a>
+            </div>
+        </div>
+
+        <div class="footer_text">
+            <p>Copyright 2021</p>
+            <p>All Rights Reserved</p>
+            <p><a href="https://www.instagram.com/p/B8o6WZdgm81/?igshid=1jj2ibnexpuqk" target="_blank">Powered by Ghost</a></p>
+        </div>
+	</footer>
+
+	<script>
+		function openBurger() {
+	  		document.getElementById("mobile_menu").style.display = 
+	  		"block";
+		}
+
+		function closeBurger() {
+	  		document.getElementById("mobile_menu").style.display = 
+	  		"none";
+		}
+	</script>
+</body>
+</html>

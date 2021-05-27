@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>GOST SITE</title>
+	<link rel="stylesheet" href="../CSS/contacts.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div id="mobile_menu" class="mobile_menu" >
+		<img src="../IMG/close.png" alt="#" onclick="closeBurger()">
+		<p><a href="../index.html">главная</a></p>
+		<p><a href="About.html">о студии</a></p>
+		<p><a href="services.html">наши <br>услуги</a></p>
+		<p><a href="Contacts.html">контакты</a></p>
+	</div>
+	<div class="burger_icon" onclick="openBurger()">
+		<div></div>
+		<div></div>
+		<div></div>
+	</div>
+	<header>
+		<div>
+			<a href="../index.html">главная</a>
+		</div>
+		<div>
+			<a href="About.html">о студии</a>
+		</div>
+		<div>
+			<a href="services.html">наши услуги</a>
+		</div>
+		<div>
+			<a href="Contacts.html">контакты</a>
+		</div>
+	</header>
+ 
+	<div class="form_block">
+		<form>
+			<label>Связаться с нами</label>
+			<div>
+				<input type="text" id="name" name="name" placeholder="Имя">
+				<input type="text" id="email" name="email" placeholder="Еmail"><br>
+			</div>
+			<textarea type="text" id="message" name="message" placeholder="Сообщение"></textarea>
+			<div>
+				<input type="text" id="mobile" name="mobile" placeholder="Мобильный">
+				<input type="submit" id="submit" value="подтвердить">
+			</div>
+		</form>
+	</div>
+
+	<div class="phones">
+		<div class="fcover">
+			<div class="cover">
+				<p class="stud_name">Gatto studio</p>
+				<p>Тренери:</p>
+			</div>
+			<div class="cover">
+				<p>+380933576270</p>
+				<p class="centered">+380933576270 Христина <br> +380976960392 Гост</p>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+        <div class="contacts">
+            <div class="text">
+                <p>Связаться с нами</p>
+            </div>
+            <div class="footer_icons">
+                <a href="https://www.instagram.com/p/CL1rSs0gE_9/?utm_medium=copy_link" target="_blank"><img src="../IMG/instagram.png" alt="#"></a>
+                <a href="#"><img src="../IMG/telegram.png" alt="#"></a>
+                <a href="#"><img src="../IMG/viber.png" alt="#"></a>
+            </div>
+        </div>
+
+        <div class="footer_text">
+            <p>Copyright 2021</p>
+            <p>All Rights Reserved</p>
+            <p><a href="https://www.instagram.com/p/B8o6WZdgm81/?igshid=1jj2ibnexpuqk" target="_blank">Powered by Ghost</a></p>
+        </div>
+	</footer>
+
+	<script>
+		function openBurger() {
+	  		document.getElementById("mobile_menu").style.display = 
+	  		"block";
+		}
+
+		function closeBurger() {
+	  		document.getElementById("mobile_menu").style.display = 
+	  		"none";
+		}
+	</script>
+</body>
+</html>
