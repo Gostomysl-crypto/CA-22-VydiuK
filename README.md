@@ -1,6 +1,6 @@
 # web_lab
 Gatto studios web site
->> https://fex.net/ru/s/ctmm93o
+>> https://fex.net/ru/s/8ce9ccl
 Скачать видео для подключения к сайту
 >>инструкции по установке<<
 Скачать все файлы и видео.
